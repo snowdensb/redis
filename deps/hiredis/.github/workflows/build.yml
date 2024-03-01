@@ -76,7 +76,7 @@ jobs:
   centos8:
     name: RockyLinux 8
     runs-on: ubuntu-latest
-    container: rockylinux:8
+    container: rockylinux:9
     steps:
       - uses: actions/checkout@v3
 
